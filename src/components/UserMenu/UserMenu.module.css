@@ -1,0 +1,43 @@
+.userMenu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: black;
+}
+
+.userMenu p {
+  margin: 0;
+  font-weight: 500;
+  color: red;
+}
+
+.span {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  padding-left: 5px;
+}
+
+.userMenu button {
+  padding: 5px 10px;
+  background-color: #ff4757;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.userMenu button:hover {
+  background-color: #e84118;
+}

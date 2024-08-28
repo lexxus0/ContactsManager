@@ -1,0 +1,24 @@
+.searchP {
+  color: rgb(22, 111, 188);
+}
+
+.searchWrapper {
+  position: relative;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50px;
+  left: 395px;
+  fill: rgb(181, 37, 8);
+}
+
+.searchInput {
+  max-width: 400px;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  background-color: rgb(49, 37, 37);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
