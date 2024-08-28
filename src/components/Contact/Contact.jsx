@@ -2,9 +2,9 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   setEditingContactId,
   clearEditingContactId,
-} from "../../redux/contacts/contactsSlice";
-import { deleteContact } from "../../redux/contacts/contactsOps";
-import { selectEditingContactId } from "../../redux/contacts/contactsSlice";
+} from "../../redux/contacts/slice";
+import { deleteContact } from "../../redux/contacts/operations";
+import { selectEditingContactId } from "../../redux/contacts/selectors";
 import css from "./Contact.module.css";
 import ContactForm from "../ContactForm/ContactForm";
 import { MdDeleteOutline, MdOutlineCancel } from "react-icons/md";

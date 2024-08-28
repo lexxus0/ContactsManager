@@ -1,7 +1,7 @@
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import * as Yup from "yup";
 import { SlPhone, SlUser } from "react-icons/sl";
-import { addContact, updateContact } from "../../redux/contacts/contactsOps";
+import { addContact, updateContact } from "../../redux/contacts/operations";
 import { useDispatch } from "react-redux";
 import css from "./ContactForm.module.css";
 
